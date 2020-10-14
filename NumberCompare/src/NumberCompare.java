@@ -15,6 +15,8 @@ public class NumberCompare {
 		System.out.println("Enter Second Integer : ");
 		number2 = input.nextInt(); //reads second integer.
 		
+		input.close() ; //closes scanner.
+		
 		if(number1 == number2) 
 			System.out.printf("%d = %d \n", number1, number2);
 		if(number1 != number2)

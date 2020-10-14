@@ -14,6 +14,7 @@ public class BMICalculator {
 		
 		System.out.println("Enter Weight in kilograms : ");
 		bodyMass = input.nextFloat();	//inputs weight.
+		input.close() ; //closes scanner.
 		
 		float BMI = bodyMass / (height * height);
 		
