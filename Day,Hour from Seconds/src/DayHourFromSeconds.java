@@ -24,5 +24,5 @@ public class DayHourFromSeconds {
 			
 			System.out.printf("%d Days, %d Hours, %d Minutes, %d Seconds \n", day, hour, min, second);
 			
-	}	
-}
+	}	//end of main method
+}		//end of class method.
